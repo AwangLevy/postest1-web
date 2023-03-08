@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Log In</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="wrapper">
+                <div class="logo"><a href="">AwangRental</a></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="partners.html">partners</a></li>
+                        <li><a href="contact.html" class="tbl-biru">Pemesanan</a></li>
+                    </ul>
+                </div>
+            </div>
+    </header>
+    <form>
+        <table>
+            <h1>Pemesanan</h1>
+            <tr>
+                <td>
+                    <label for="uname">Nama</label>
+                </td>
+                <td>
+                    <input type="text" id="uname" name="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="uemail">Email</label>
+                </td>
+                <td>
+                    <input type="text" id="uemail" name="usermail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">alamat pengantaran</label>
+                </td>
+                <td>
+                    <input type="text" name="userage" id="alamat" size="30" maxlength="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Kabupaten</label>
+                </td>
+                <td>
+                    <input type="text" value="Kalimantan Timur" name="country" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">no hp</label>
+
+                </td>
+                <td>
+                    <input type="password" id="pass">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="res">foto Lokasi</label>
+                </td>
+                <td>
+                    <input type="file" id="res">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Input</label>
+                </td>
+                <td>
+                    <label>
+                            <input type="checkbox" checked> Es Batu
+                        </label>
+                    <label>
+                            <input type="checkbox"> Pengharum
+                        </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>penyewaan</label>
+                </td>
+                <td>
+                    <label>
+                            <input type="radio" value="f" name="gender"> Kipas Blower</label>
+                    <label>
+                            <input value="m" type="radio" name="gender"> Ac Standing</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Daerah">Daerah--</label>
+                </td>
+                <td>
+                    <select id="Daerah" name="Daerah">
+                                <option disabled selected>--Pilih Daerah--</option>
+                                    <optgroup label="Daerah">
+                                        <option>Samarinda </option>
+                                        <option>Tenggarong</option>
+                                        <option>Balikpapan</option>
+                                        <option>Kota Bangun</option>
+                                        <option>lainnya</option>
+                            </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>deskripsi</label>
+                </td>
+                <td>
+                    <textarea rows="4" cols="40"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Pesan">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </nav>
+
+
+</body>
+
+
+</html>
